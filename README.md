@@ -11,7 +11,7 @@ An app to write and save notes for organizing and tracking tasks
 
 ## Usage
 
-The deployed application can be viewed at ![Note Taker]()
+The deployed application can be viewed at ![Note Taker](https://dcharney-note-taker.herokuapp.com/)
 
 ![image 1](assets\images\11-express-homework-demo-01.png)
 
