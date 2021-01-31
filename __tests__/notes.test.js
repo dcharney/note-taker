@@ -1,5 +1,5 @@
 const fs = require("fs");
-const { findById, createNewNote, validateNote } = require("../lib/notes.js");
+const { findById, createNewNote } = require("../lib/notes.js");
 const { notes } = require("../db/db");
 
 jest.mock('fs');
@@ -29,24 +29,4 @@ test("find by id", () => {
     const result = findById("3", startingNotes);
 
     expect(result.title).toBe("Test Note 1");
-});
-
-test("validates user input", () => {
-    const note = {
-        id: "3",
-        title: "Test Note 1",
-        text: "Lorem Ipsum"
-    };
-
-    const invalidNote = {
-        id: "4",
-        title: "",
-        text: "Lorem Ipsum"
-    };
-
-    const result = validateNote(note);
-    const result2 = validateNote(invalidNote);
-
-    expect(result).toBe(true);
-    expect(result2).toBe(false);
 });
