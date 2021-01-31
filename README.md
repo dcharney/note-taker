@@ -13,6 +13,10 @@ An app to write and save notes for organizing and tracking tasks
 
 The deployed application can be viewed at ![Note Taker]()
 
+![image 1](assets\images\11-express-homework-demo-01.png)
+
+![image 2](assets\images\11-express-homework-demo-02.png)
+
 
 ## Contributing
 
